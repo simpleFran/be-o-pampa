@@ -2,17 +2,13 @@ import Image from "next/image";
 import React from "react";
 
 const PodcastCard = ({
-  podcastId,
-  description,
   imgURL: imgUrl,
   title,
-  
 }: {
   imgURL: string;
   podcastId: number;
   description: string;
   title: string;
-  
 }) => {
   return (
     <div className="cursor-pointer">

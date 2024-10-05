@@ -13,7 +13,7 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
-const testFont = Oswald({ subsets: ["latin"], weight: ["200", "300", "400"] });
+// const testFont = Oswald({ subsets: ["latin"], weight: ["200", "300", "400"] });
 export const metadata: Metadata = {
   title: "Pampa Feef App",
   description: "App didático sobre o Bioma Pampa",
