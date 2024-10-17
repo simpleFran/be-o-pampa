@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 import PlayButton from "@/components/PlayButton";
 import React, { useState } from "react";

@@ -8,11 +8,11 @@ const PlayButton = () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [audio, setAudio] = useState<HTMLAudioElement | null>(null);
 
-  // useEffect(() => {
-  //   // Cria o objeto de áudio com o arquivo desejado
-  //   const newAudio : HTMLAudioElement = new Audio("/sounds/animals-song.wav");
-  //   setAudio(newAudio);
-  // }, []);
+  useEffect(() => {
+    // Cria o objeto de áudio com o arquivo desejado
+    const newAudio : HTMLAudioElement = new Audio("/sounds/animals-song.wav");
+    setAudio(newAudio);
+  }, []);
 
   const togglePlayPause = () => {
 
