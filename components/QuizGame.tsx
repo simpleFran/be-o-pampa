@@ -42,6 +42,7 @@ const QuizGame = () => {
         setCurrentQuestionIndex(currentQuestionIndex + 1);
       } else {
         setGameOver(true);
+        
       }
     }
   };

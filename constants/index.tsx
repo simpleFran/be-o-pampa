@@ -55,70 +55,164 @@ export const podcastData = [
     title: "Fauna",
     description: "",
     imgURL: "/icons/animals-2.png",
-    href:"/faune"
+    href: "/faune",
   },
   {
     id: 3,
     title: "Flora",
     description: "",
     imgURL: "/icons/fl.jpg",
-    href:"/flower"
+    href: "/flower",
   },
   {
     id: 4,
     title: "Características",
     description: "",
     imgURL: "/icons/features.jpg",
-    href:"/features"
+    href: "/features",
   },
   {
     id: 5,
     title: "Conscientização e Preservação",
     description: "",
     imgURL: "/icons/ferret_preserve.jpg",
-    href:"/awareness"
+    href: "/awareness",
   },
   {
     id: 6,
     title: "Quiz/Jogo",
     description: "",
     imgURL: "/icons/quiz.jpg",
-    href:"/quiz"
+    href: "/quiz",
   },
 ];
 
 // test questions
 export const quizQuestions = [
   {
-    question: "Tuca-tuca é um animal do Bioma Pampa de qual família?",
-    options: ["Hominídeos", "Aves", "Silvestres", "Roedores"],
-    answer: "Roedores",
+    question: "1. Qual é o tipo de vegetação mais comum no Pampa?",
+    options: ["Florestas tropicais", "Cerrado", "Campos e gramíneas", "Tundra"],
+    answer: "Campos e gramíneas",
   },
   {
-    question: "Quem é o autor(a) de 'Harry Potter'?",
+    question:
+      "2. Qual dos seguintes estados brasileiros possui área no Bioma Pampa?",
     options: [
-      "J.R.R. Tolkien",
-      "J.K. Rowling",
-      "Renata P. Maldonado",
-      "Prof. Ketlin Monique",
+      "Rio de Janeiro",
+      "Minas Gerais",
+      "Rio Grande do Sul",
+      "Amazonas",
     ],
-    answer: "Renata P. Maldonado",
+    answer: "Rio Grande do Sul",
   },
   {
-    question: "Quanto é 2 + 2?",
-    options: ["1 milhão", "4", "2 ao quadrado", "1.480.625"],
-    answer: "4",
+    question: "3. Qual é a localização predominante do Bioma Pampa?",
+    options: [
+      "Sul do Brasil e partes da Argentina e Uruguai",
+      "Região Norte do Brasil",
+      "Região Central da África",
+      "Região do Mediterrâneo",
+    ],
+    answer: "Sul do Brasil e partes da Argentina e Uruguai",
   },
   {
-    question: "Qual o animal que não é característico do Bioma Pampa?",
-    options: ["Leopardo", "Quero-quero", "Graxaim", "Tatu"],
+    question: "4. Qual é o clima predominante no Bioma Pampa?",
+    options: ["Tropical", "Polar", "Subtropical", "Mediterrâneo"],
     imgUrl: [
       "/quiz/q-leopard.jpg",
       "/quiz/q-quero-quero.jpg",
       "/quiz/q-graxain.png",
       "/quiz/q-armadillo.jpg",
     ],
-    answer:"Leopardo"
+    answer: "Subtropical",
+  },
+
+  {
+    question: "5. Qual animal é característico do Bioma Pampa?",
+    options: ["Elefante", "Bicho-preguiça", "Tatu", "Lobo-guará"],
+    imgUrl: [
+      "/quiz/q-leopard.jpg",
+      "/quiz/q-quero-quero.jpg",
+      "/quiz/q-graxain.png",
+      "/quiz/q-armadillo.jpg",
+    ],
+    answer: "Lobo-guará",
+  },
+  {
+    question:
+      "6. Quais são as espécies vegetais características do Bioma Pampa?",
+    options: [
+      "Espinilho e Barba-de-bode",
+      "Araucária e Inhanduvai",
+      "Eucalipto e espinillho",
+      "Roseira e Algarrobo",
+    ],
+    imgUrl: [
+      "/quiz/q-leopard.jpg",
+      "/quiz/q-quero-quero.jpg",
+      "/quiz/q-graxain.png",
+      "/quiz/q-armadillo.jpg",
+    ],
+    answer: "Espinilho e Barba-de-bode",
+  },
+  {
+    question: "7. O que caracteriza o solo do Bioma Pampa?",
+    options: [
+      "Solos arenosos e secos",
+      "Solos geralmente férteis",
+      "Solos ácidos e pobres",
+      "Solos lamacentos",
+    ],
+    imgUrl: [
+      "/quiz/q-leopard.jpg",
+      "/quiz/q-quero-quero.jpg",
+      "/quiz/q-graxain.png",
+      "/quiz/q-armadillo.jpg",
+    ],
+    answer: "Solos geralmente férteis",
+  },
+  {
+    question: "8. Qual é uma planta típica encontrada no Bioma Pampa?",
+    options: ["Mangueira", "Araucária", "Macela", "Eucalipto"],
+    imgUrl: [
+      "/quiz/q-leopard.jpg",
+      "/quiz/q-quero-quero.jpg",
+      "/quiz/q-graxain.png",
+      "/quiz/q-armadillo.jpg",
+    ],
+    answer: "Macela",
+  },
+  {
+    question: "9. Grande parte da área do Bioma Pampa é utilizada para?",
+    options: [
+      "Agricultura e turismo",
+      "Pastagem e agricultura",
+      "Criação de peixes",
+      "Produção de madeira",
+    ],
+    imgUrl: [
+      "/quiz/q-leopard.jpg",
+      "/quiz/q-quero-quero.jpg",
+      "/quiz/q-graxain.png",
+      "/quiz/q-armadillo.jpg",
+    ],
+    answer: "Pastagem e agricultura",
+  },
+  {
+    question: "10. Fazem parte da fauna do Bioma Pampa, exceto?",
+    options: [
+      "Lobo-guará",
+      "Capivara",
+      "Quero-quero",
+      "Onça",
+    ],
+    imgUrl: [
+      "/quiz/q-leopard.jpg",
+      "/quiz/q-quero-quero.jpg",
+      "/quiz/q-graxain.png",
+      "/quiz/q-armadillo.jpg",
+    ],
+    answer: "Onça",
   },
 ];
 

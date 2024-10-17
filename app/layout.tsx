@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 // const testFont = Oswald({ subsets: ["latin"], weight: ["200", "300", "400"] });
 export const metadata: Metadata = {
-  title: "Pampa Feef App",
+  title: "BioPampa",
   description: "App didático sobre o Bioma Pampa",
   icons: {
     icon: "/icons/logo.svg",

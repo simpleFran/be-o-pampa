@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 import type { Config } from "tailwindcss";
 
 const config = {
@@ -49,10 +50,15 @@ const config = {
           6: "#c9e6b5",
           8: "#3f8880",
           9: "#77A61B",
+          10: "#83B273",
         },
         yellow: {
           1: "#b4c472",
           2: "#d9d967",
+        },
+        blue: {
+          1: "#4A90E2",
+          2: "#003366",
         },
       },
       backgroundImage: {
