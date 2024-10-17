@@ -35,10 +35,12 @@ const Page = () => {
           {/* PlayButton substituído por um botão que controla o modal */}
           <PlayButton />
         </button>
-        <h1 className="ml-3 text-2xl font-bold">
-          Resumo do Aplicativo <br />
-          NARRATIVA
-        </h1>
+        <Link href={"/narrative"}>
+          <h1 className="ml-3 text-2xl font-bold">
+            Resumo do Aplicativo <br />
+            NARRATIVA
+          </h1>
+        </Link>
       </div>
 
       {/* Modal com o vídeo */}
