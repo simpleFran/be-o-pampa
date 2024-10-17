@@ -37,7 +37,7 @@ const Page = () => {
         </button>
         <h1 className="ml-3 text-2xl font-bold">
           Resumo do Aplicativo <br />
-          NARRATIVA | FAUNA
+          NARRATIVA
         </h1>
       </div>
 
